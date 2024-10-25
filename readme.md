@@ -1,21 +1,21 @@
 # Preseason Digital Notebook Example
-Name: **[INSERT NAME HERE]**
+Name: **[Avnish]**
 
 Section: **[I2RC/ARC]**
 
-Week: **[INSERT WEEK NUM HERE]**
+Week: **[6]**
 
 
 ## Code
 
-The main topic this week was: **[TOPIC NAME]**
+The main topic this week was: **[PID]**
 
 Commands: **[COMMANDS]**
 
 Subsystems: **[SUBSYSTEMS]**
 
 ### How does the code work?
-Write about how it works here
+The PID controller checks the current measurement and the distance from the setpoint, then it makes the output adjustment which is given to the drivetrain as speeds.
 
 
 ### Important notes for future reference
