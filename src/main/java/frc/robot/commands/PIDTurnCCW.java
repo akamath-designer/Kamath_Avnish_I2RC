@@ -35,13 +35,14 @@ public class PIDTurnCCW extends Command {
     public void execute() {
       //ToDo: crete variable which uses calculate method to 
       double speed = pidController.calculate(0);
-      drivetrain.tankDrive(speed, speed);
+      drivetrain.tankDrive(speed, -speed);
     }
+
 
 
     @Override
     public void end(boolean interrupted) {
-      drivetrain.tankDrive(0, 0);
+      drivetrain.tankDrive(0, 0);    
     }
 
 
